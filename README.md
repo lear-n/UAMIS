@@ -64,7 +64,6 @@ metadata.csv           N rows, in exactly the same sample order
 
 `N` is the number of IHC images in the corresponding tissue/state subset. The five Sigmoid outputs are not required to sum to one.
 
-The pretrained localization model, its weights, and feature-extraction implementation are intentionally kept outside this repository. A compatible upstream implementation only needs to provide prediction tensors and aligned metadata that satisfy the input contract described in [`docs/input_format.md`](docs/input_format.md).
 
 ## Installation
 
