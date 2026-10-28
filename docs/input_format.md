@@ -1,6 +1,6 @@
 # Input format
 
-The public UAMIS workflow begins from stochastic localization predictions produced by a compatible pretrained multimodal localization model. No source IHC images, protein sequences, pretrained weights, or study-specific datasets are distributed with this repository.
+The public UAMIS workflow begins from stochastic localization predictions produced by a compatible pretrained multimodal localization model. 
 
 ## 1. Directory layout
 
