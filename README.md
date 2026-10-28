@@ -188,13 +188,11 @@ Literature review and DAVID enrichment are external biological-analysis steps. T
 
 ## Data flow and reproducibility boundary
 
-The public implementation is designed to make the UAMIS downstream analysis transparent without redistributing third-party datasets or the pretrained upstream localization model. To reproduce the downstream calculations, users provide their own paired metadata and compatible MC-Dropout prediction tensors.
-
 Original data resources used in the study were obtained from public databases, including the Human Protein Atlas (HPA), UniProt, and TCGA. Users should obtain these resources directly from their official sources and comply with their respective terms of use.
 
 ## Tests
 
-The tests use small synthetic arrays only and do not contain study data.
+The tests use small synthetic arrays data.
 
 ```bash
 python -m unittest discover -s tests -v
