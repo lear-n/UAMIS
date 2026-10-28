@@ -1,0 +1,37 @@
+# Study data, predictions, and generated results
+inputs/
+data/
+results/
+outputs/
+weights/
+models/
+*.npy
+*.npz
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.h5
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.pdf
+*.docx
+*.zip
+
+# Local environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log
