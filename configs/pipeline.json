@@ -1,0 +1,8 @@
+{
+  "input_root": "../inputs",
+  "output_root": "../results",
+  "tissues": ["Breast", "Cervix", "Liver", "Lung", "Ovary", "Prostate", "Thyroid"],
+  "passes": 30,
+  "delta": 1e-12,
+  "jsd_cutoff": 0.1
+}
