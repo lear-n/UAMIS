@@ -192,7 +192,6 @@ Original data resources used in the study were obtained from public databases, i
 
 ## Tests
 
-The tests use small synthetic arrays data.
 
 ```bash
 python -m unittest discover -s tests -v
