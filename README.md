@@ -4,7 +4,6 @@
 
 UAMIS is a computational framework for prioritizing tumor-associated protein subcellular mislocalization from paired normal–tumor IHC–sequence data. The public workflow starts from stochastic localization predictions produced by a compatible pretrained multimodal localization model and implements the downstream analysis used by UAMIS: MC-Dropout summarization, protein-level profile aggregation, relative-distribution normalization, Jensen–Shannon divergence (JSD) screening, and interfaces for biological evidence analysis.
 
-This repository **does not redistribute source IHC images, protein sequences, pretrained model weights, or the ProLoc-IHS implementation**. Those resources remain external to the public analysis workflow.
 
 ## Overview
 
